@@ -40,11 +40,17 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+% \addtolength{\oddsidemargin}{-0.5in}
+% \addtolength{\evensidemargin}{-0.5in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{-.5in}
+% \addtolength{\textheight}{1.0in}
+
+\addtolength{\oddsidemargin}{-0.75in}
+\addtolength{\evensidemargin}{-0.75in}
+\addtolength{\textwidth}{1.5in}
+\addtolength{\topmargin}{-0.75in}
+\addtolength{\textheight}{1.5in}
 
 \urlstyle{same}
 
@@ -125,15 +131,60 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Waterloo}{Waterloo, ON}
-      {Bachelor of Computer Science}{Sept. 2022 -- May 2027}
+      {Candidate for Bachelor of Computer Science -- Advanced Coursework}{Sept. 2022 -- May 2027}
 %    \resumeSubheading
 %      {Blinn College}{Bryan, TX}
 %      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
-  \resumeSubheading
-      {The Woodlands School}{Mississauga, ON}
-      {OSSD - Enhanced Learning Program}{Sept. 2019 -- June 2022}
+  % \resumeSubheading
+  %     {The Woodlands School}{Mississauga, ON}
+  %     {OSSD - Enhanced Learning Program}{Sept. 2019 -- June 2022}
   \resumeSubHeadingListEnd
 
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, JavaScript, TypeScript, HTML/CSS, Scheme } \\
+     \textbf{Frameworks}{: React, Node.js, Gradle, Next.js, Eleventy, Prisma } \\
+     \textbf{Tools}{: Git, \LaTeX, pandas, NumPy, PyTorch, einops, TensorFlow}
+    }}
+ \end{itemize}
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Machine Learning Text Generation} $|$ \emph{Python, TensorFlow, Jupyter}}{November 2022 -- Present}
+          \resumeItemListStart
+            \resumeItem{Trained RNN to generate text based on the works of William Shakespeare, online technology blogs and cooking recipes}
+            \resumeItem{Explored training techniques and their drawbacks, such as teacher-forcing}
+            \resumeItem{Currently experimenting with transformer system based on GPT-2 for improved text generation}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{PuMP website} $|$ \emph{TypeScript, React, Next.js, CSS, PostgreSQL, Prisma}}{June 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{Built responsive pages and components for Next.js site in TypeScript to design specifications}
+            \resumeItem{Populated, maintained and interacted with PostgreSQL database with Prisma ORM}
+            \resumeItem{10000+ online interactions in first year}
+            % \resumeItem{Collaborated with design team, web developers to make changes and improvements}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Self-hosted services} $|$ \emph{Shell, Python, HTML, CSS, Docker}}{November 2019 -- Present}
+          \resumeItemListStart
+            \resumeItem{Self-hosted a variety of services and utilities using hosting providers, bare-metal equipment}
+            \resumeItem{Hosted and troubleshooted private cloud storage, static sites, personal libraries}
+            \resumeItem{Administrated Windows, macOS, Linux systems and Docker containers}
+          \resumeItemListEnd
+      % \resumeProjectHeading
+      %     {\textbf{Highmark} $|$ \emph{JavaScript, HTML/CSS, Jekyll, Showdown}}{October 2020 -- November 2020}
+      %     \resumeItemListStart
+      %       \resumeItem{Developed a static web application in pure JavaScript and HTML/CSS, self-hosted on a VPS}
+      %       \resumeItem{Rendered automatic previews and exported pages using Showdown}
+      %       \resumeItem{Implemented saving to/loading from disk}
+      %     \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -163,65 +214,40 @@
       \resumeItemListStart
         \resumeItem{Explored the effects of amino acids on cancer treatment as path of Introduction to Cancer Biology group}
         \resumeItem{Performed programmatic literature search using nltk, pandas}
-        \resumeItem{Contributed significantly to 34-page literature review on amino acids and cancer immunotherapy treatments}
-        \resumeItem{Presented on cancer biology topics to new group members during term transition}
+        \resumeItem{Researched and wrote tryptophan section of meta-analysis on amino acids and cancer immunotherapy treatments}
+        % \resumeItem{Presented on cancer biology topics to new group members during term transition}
       \resumeItemListEnd
 
       
     \resumeSubheading
-      {Data Analyst}{June 2020 -- January 2021}
+      {Data Analyst / Developer}{June 2020 -- January 2021}
       {Community Advocates for Just and Moral Governance}{Remote - San Diego, CA}
       \resumeItemListStart
         \resumeItem{Used Tesseract OCR and Tabula to enhance the processing of SDPD racial arrest data}
         \resumeItem{Efforts contributed to successful lawsuit filed against SDPD and City of San Diego}
-        \resumeItem{Scraped online video and other content for record-keeping}
+        % \resumeItem{Scraped online video and other content for record-keeping}
         \resumeItem{Consulted on web design and outreach tactics for online charity campaign}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{PuMP website} $|$ \emph{TypeScript, React, Next.js, CSS, PostgreSQL, Prisma}}{June 2021 -- Present}
-          \resumeItemListStart
-            \resumeItem{Built responsive pages and components for Next.js site in TypeScript to design specifications}
-            \resumeItem{Populated, maintained and interacted with PostgreSQL database with Prisma ORM}
-            \resumeItem{10000+ online interactions in first year}
-            \resumeItem{Collaborated with design team, web developers to make changes and improvements}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Self-hosted services} $|$ \emph{Shell, Python, HTML, CSS, Docker}}{November 2019 -- Present}
-          \resumeItemListStart
-            \resumeItem{Self-hosted a variety of services and utilities using hosting providers, bare-metal equipment}
-            \resumeItem{Hosted and troubleshooted private cloud storage, static sites, personal libraries}
-            \resumeItem{Administrated Windows, Linux systems and Docker containers}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Highmark} $|$ \emph{JavaScript, HTML/CSS, Jekyll, Showdown}}{October 2020 -- November 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a static web application in pure JavaScript and HTML/CSS, self-hosted on a VPS}
-            \resumeItem{Rendered automatic previews and exported pages using Showdown}
-            \resumeItem{Implemented saving to/loading from disk}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Java, Python, C/C++, JavaScript, TypeScript, HTML/CSS, Racket/Scheme } \\
-     \textbf{Frameworks}{: React, Node.js, Gradle, Next.js, Prisma } \\
-     \textbf{Developer Tools}{: Git, Visual Studio Code, Eclipse} \\
-     \textbf{Libraries}{: pandas, NumPy}
-    }}
- \end{itemize}
-
-
 %-------------------------------------------
+
+\section{Achievements}
+ \resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{picoCTF 2022} $|$ \emph{2nd Place Canada-Wide, 14th Globally}}{March 2022}
+    \resumeItemListStart
+      \resumeItem{Competed in online, team-based capture-the-flag cybersecurity challenge hosted by Carnegie Mellon University}
+      \resumeItem{Team placed 2nd in Canada, 14th worldwide out of 7500+ teams}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{IOAA 2021} $|$ \emph{Bronze Medal (Individual), Gold Medal (Team)}}{November 2021}
+    \resumeItemListStart
+      \resumeItem{Competed in 14th International Olympiad on Astronomy and Astrophysics}
+      \resumeItem{Selected for Team Canada as Top 5 student nationwide}
+      \resumeItem{Earned bronze medal for individual performance, gold medal (first in world) for team challenge portion}
+    \resumeItemListEnd
+ \resumeSubHeadingListEnd
+%
 \end{document}
